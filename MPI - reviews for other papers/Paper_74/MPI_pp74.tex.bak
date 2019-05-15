@@ -1,0 +1,29 @@
+\documentclass[]{article}
+
+\title{Review paper 74}
+\date{}
+
+\begin{document}	
+	
+\maketitle
+
+Lucrarea intitulata "Analiza algoritmilor elementari
+de sortare" se afla in domeniul de interes pentru acest apel.
+
+Rezumat: Aceasta lucrare prezinta o parte din algoritmii elementari de sortare: Bubble Sort, Insertion Sort, Selection Sort, Quick Sort si Merge Sort. Lucrarea urmareste o analiza a complexitatii algoritmilor in raport cu timpul de executie si o analiza experimentala a acestora. Sunt oferite numeroase exemple din viata reala. Experimentele au fost facute pe numere ce apartin intervalului [1,50.000], delimitate in 3 cazuri: sir de elemente generate aleator, sir de elemente sortate descrescator si pe siruri de elemente aproape sortate(explicat in lucrare drept sir sortat, dar cu o zecime din elemente interschimbate). Ordinea datelor de intrare a fost aleasa astfel pentru a confirma comportamentul algoritmilor in cazurile respective. Rezultatele arata eficienta algoritmilor Divide et Impera: Merge Sort si Quick Sort, mentionand insa dezavantajul memoriei aditionale necesare Merge Sort-ului si cazul nefavorabil al Quick Sort-ului ce il duce in aceeasi categorie cu algoritmii de baza de sortare. E analizata de asemenea eficienta relativ asemanatoare a algoritmilor Bubble, Insertion si Selection Sort.
+
+Rezultatele par a fi corecte, originale si relevante, fiind de asemenea non-triviale. Rezultatele sunt interpretate in cadrul lucrarii prin ilustrarii grafice.
+
+Experimentele realizate sunt satisfacatoare, intrucat autorul ofera suficiente detalii pentru intelegerea modului de functionare al algoritmilor prezentati, oferind de asemenea o explicatie detaliata pentru intelegerea complexitatii algoritmilor.
+
+Lucrarea este corecta din punct de vedere tehnic, iar autorul pare a stapani campul domeniului de interes.
+Am verificat majoritatea detaliilor tehnice. Analiza teoretica a complexitatii este corecta, precum raporteaza si sursa oferita(surse de incredere, precum cartea lui Donald Knuth). 
+
+Prezentarea este buna. Din punct de vedere al structurii, lipsesc sectiuniile: "Lucrari similare". De asemenea, nu se face nici o referire la viitoare lucrari. Fiind prezente atat secvente de cod scrise in pseudocod, cat si in python, e prezenta o inconsistenta a limbajului de programare utilizat. De asemenea, nu sunt oferite explicatii sau comentarii aferente pentru codul prezentat. Bibliografia cuprinde surse de incredere, insa nu sunt oferite referinte spre acestea pe parcursul lucrarii. 
+
+Sugestii: revizuirea lucrarii prin implementarea sectiunii "Lucrari similare" si oferirea referintelor spre bibliografie, scrierea explicatiilor pentru secventele de cod si incercarea abordarii consistentei limbajulu de programare
+\smallskip
+
+Decizie: weak accept(accept slab).
+
+\end{document}

@@ -1,0 +1,89 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+
+\title{Algorithm to review scientific papers}
+\date{}
+\author{Adrian-Ioan Tuns}
+\affil{Departament of computer science
+
+Faculty of Mathematics and Informatics
+
+West University of Timișoara
+
+Teacher: Adrian Craciun
+
+Email: tunsadrian99@gmail.com}
+
+
+\begin{document}	
+\maketitle
+
+\begin{abstract}
+	This article shows an algorithm to review scientific paper. It explains step-by-step how one should review a paper and when should he drop a paper.
+\end{abstract}
+\newpage
+
+1)Read abstract, introduction and conclusion(around 10 minutes)
+
+2)If the paper is in the scope(of journal, of call of papers etc.):
+\begin{itemize}
+\item then "the paper is in the scope", go to 3)
+\item else describe the topic of the paper including justification for "not in the scope", *STOP*
+\end{itemize}
+
+3)Read superficially the paper(around 15 minutes) and write a summary which includes problem and solution(results) of the paper, in your own words(around 5 minutes)
+
+4)If the presentation of the paper seems clear enough for making a fair evaluation:
+\begin{itemize}
+\item then go to 5
+\item else "reject, presentation is to poor to..."(justify), *STOP*
+\end{itemize}
+
+5)If the main results seem important:
+\begin{itemize}
+\item then "the main results(which) seem (very, fairly, quite etc.) important", go to 6)
+\item else "reject, results are not important(enough)" *STOP*
+\end{itemize}
+
+6)If the results seem non-trivial:
+\begin{itemize}
+\item then "the main results(which) are non-trivial(in what way?), go to 7)
+\item else "reject, results are trivial(how?)", *STOP
+\end{itemize}
+
+7)If the results seem original:
+\begin{itemize}
+\item then report, go to 8)
+\item else "reject, results are known(show how -from literature-), *STOP*
+\end{itemize}
+
+8)If there are sufficiently many details for an exact check of 
+\begin{enumerate}
+\item then report, go to 9)
+\item else "the paper contains too few details(what is missing?) for an exact check of correctness", *STOP*
+	
+	If by intuitive reasons the paper or results seem correct:
+	\begin{itemize}
+\item	then report, go to 11)
+\item	else "results(which) seem incorrect(Why)" *STOP*
+	\end{itemize}
+\end{enumerate}
+	
+9) Read the paper in detail(around 2-5 hours)
+
+10)If the paper is technically correct and the author seems to master the field
+\begin{itemize}
+\item then report "the author masters the field; I have checked(all, most, some -which-) details(in detail, spot checked etc.)", make a list of minor problems, go to 11)
+\item else "reject, the paper contains possible severe errors(which)" *STOP*
+\end{itemize}
+
+11)If the presentation, style and format are of high standard:
+\begin{itemize}
+\item then report "the presentation is (good,standard,excellent), go to 12)
+\item else suggest improvements, signal errors, go to 12)
+\end{itemize}
+
+12)Make a list of suggestions for improving the paper + Decision
+
+\end{document}

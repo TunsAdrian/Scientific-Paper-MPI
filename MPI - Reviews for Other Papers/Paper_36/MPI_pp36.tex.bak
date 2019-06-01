@@ -1,0 +1,27 @@
+\documentclass[]{article}
+
+\title{Recenzia lucrarii 36}
+\date{}
+
+\begin{document}	
+	
+\maketitle
+Lucrarea intitulata "Analiza comparativa a complexitatii" prezentata se afla in domeniul de interes pentru acest apel. 
+
+Rezumat: Lucrarea prezinta patru algoritmi de sortare: Bubble Sort, Insertion Sort, Quick Sort si Merge Sort. Algoritmii nu sunt specificati in Rezumat sau Introducere. Sunt prezentate detalii teoretice despre algoritmii respectivi, iar mai apoi sunt afisate rezultatele experimentelor relizate pe secvente de numere aflate intre 1.000 si 100.000 de elemente. Experimentele au fost relizate pe liste de numere sortate in modalitati diferite pentru fiecare algoritm, experimentele fiind astfel inconsistente. In ceea ce priveste limbajul utilizat, desi e specificat ca fiind doar C++, e prezent si limbajul pseudocod, marcand o alta inconsistenta. Dupa rezultatele experimentelor, autorul confirma elementele teoretice mentionate, fara a oferind o explicate vaga. Desi lucrarea propune si comparatii teoretice, sunt realizate doar comparatii experimentale. Lipsa sectiunii "Concluzie" impiedica exprimarea clara a rezultatului acestei lucrari.
+Conform problemelor prezentate anterior, lucrarea nu este suficient de completa pentru a putea fi evaluata.
+
+Rezultatele experimentelor par a fi originale si relevante. Lipsa mentionarii mediului de executie al experimentelor impiedica exprimarea unei opinii in raport cu corectitudinea rezultatelor.
+
+Autorul nu pare sa fie stapan pe domeniul de cercetare. Desi autorul ofera surse valide in cadrul bibliografiei, nu sunt prezente referinte spre aceste surse, termenii si conceptele utilizate ce apartin domeniului ramanand nedefinite.
+
+Din punct de vedere al structurii, lipsesc sectiuniile "Lucrari similare", "Modelul si implementarea problemei si a solutiei" si sectiunea "Concluzie", iar sectiunea "Descriere formala a problemei si a solutiei" e imbinata cu sectiunea "Studiu de caz". Prezentarea si stilul utilizat lasa de dorit. Titlul nu este un titlu suficient de explicit, nefiind precizata complexitatea a carui lucru sau fenomen este analizata. Lucrarea nu este realizata in conformitate cu standardul. 
+
+Sunt prezente numeroase secvente ambigue, fara explicatii, precum termenii: "a[i]", "a[j]", "aux", "ok" ce apar mentionati in sectiunea 3, fara nici un fel de explicatie. De asemenea, sunt prezente numeroase secvente de cod fara explicatii sau comentarii. Sunt prezente numeroase greseli gramaticale, incepand din sectiunea "Rezumat".
+
+Sugestii: rescrierea lucrarii, plasarea rezumatului pe prima pagina, inainte de cuprins si introducerea sectiunilor lipsa, corectarea greselilor gramaticale, abordarea consistentei in experimente si in limbajul de programare utilizat, explicarea secventelor de cod, revizuirea titlului, prezentarea mediului de desfasurare al experimentelor, abordarea comparatiilor teoretice, precum este afirmat in sectiunea "Introducere", oferirea referintelor spre "Bibliografie".
+\smallskip
+
+Decizie: reject(respis).
+
+\end{document}

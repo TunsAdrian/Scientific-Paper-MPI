@@ -1,5 +1,0 @@
-modified "we much first" with "we must first" at section 2.3("Formal Description of Problem and Solution" -> "Heap Sort")
-
-added details to the 3rd section("Model and Implementation of Problem")
-
-made an introduction for the 5th section("Related Work")
